@@ -1,7 +1,7 @@
 {
   "name": "ippanelcom/laravel-sdk",
   "description": "Laravel SDK for IPPanel SMS API",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -22,10 +22,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "IPPanel\\IppanelServiceProvider"
+        "Ippanel\\IppanelServiceProvider"
       ],
       "aliases": {
-        "IPPanel": "IPPanel\\Facades\\IPPanel"
+        "IPPanel": "Ippanel\\Facades\\IPPanel"
       }
     }
   },
