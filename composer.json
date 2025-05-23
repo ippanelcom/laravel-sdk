@@ -1,0 +1,40 @@
+{
+  "name": "ippanel/laravel-sdk",
+  "description": "Laravel SDK for IPPanel SMS API",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "IPPanel",
+      "email": "devops@ippanel.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ippanel\\": "src/Ippanel/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ippanel\\IppanelServiceProvider"
+      ],
+      "aliases": {
+        "IPPanel": "Ippanel\\Facades\\IPPanel"
+      }
+    }
+  },
+  "keywords": [
+    "laravel",
+    "sms",
+    "ippanel",
+    "notification"
+  ],
+  "homepage": "https://github.com/ippanelcom/laravel-sdk",
+  "minimum-stability": "stable"
+}
