@@ -1,5 +1,5 @@
 {
-  "name": "ippanel/laravel-sdk",
+  "name": "ippanelcom/laravel-sdk",
   "description": "Laravel SDK for IPPanel SMS API",
   "version": "1.0.0",
   "type": "library",
