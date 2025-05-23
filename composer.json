@@ -22,7 +22,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Ippanel\\IppanelServiceProvider"
+        "src\\Ippanel\\IppanelServiceProvider"
       ],
       "aliases": {
         "IPPanel": "Ippanel\\Facades\\IPPanel"
